@@ -1,1 +1,37 @@
 /* Fichier css du header de la page, 17/08/2016 BlogInt B.BELLION O.LELBLOA */
+@font-face{
+	font-family: CatShop;
+	src: url("../polices/CatShop.ttf");
+}
+html{
+	font-family: CatShop;
+	color: #EFF0FF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("../images/navbar.jpg");
+    font-size:2.5vh;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #1A1C19;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {	
+    color: #B9121B;
+}
+
+.active {
+    color: #B9121B;
+}
